@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+
+
+    tools:context="com.example.bluey.calculator.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="0"
+        android:textSize="50dp"
+        android:gravity="right"
+        android:id="@+id/textView"
+        />
+
+    <TableLayout
+        android:paddingTop="8dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+
+            <Button
+                android:layout_width="93dp"
+                android:layout_height="70dp"
+                android:id="@+id/reset"
+
+                android:text="AC"
+                android:textSize="30dp"
+                android:onClick="reset"
+                />
+            <Button
+                android:layout_width="93dp"
+                android:layout_height="70dp"
+                android:id="@+id/divide"
+                android:text="/"
+                android:textSize="30dp"
+                android:onClick="algorithm"
+                />
+            <Button
+                android:layout_width="93dp"
+                android:layout_height="70dp"
+                android:id="@+id/multioly"
+                android:text="*"
+                android:textSize="30dp"
+                android:onClick="algorithm"
+
+                />
+            <Button
+                android:layout_width="93dp"
+                android:layout_height="70dp"
+                android:id="@+id/subtract"
+                android:text="-"
+                android:textSize="30dp"
+                android:onClick="algorithm"
+                />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/seven"
+                android:text="7"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/eight"
+                android:text="8"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/nine"
+                android:text="9"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/add"
+                android:text="+"
+                android:textSize="30dp"
+                android:onClick="algorithm"
+
+                />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/four"
+                android:text="4"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/five"
+                android:text="5"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/six"
+                android:text="6"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/equal"
+                android:text="="
+                android:textSize="30dp"
+                android:onClick="algorithm"
+                />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/one"
+                android:text="1"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/two"
+                android:text="2"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/three"
+                android:text="3"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:id="@+id/zero"
+                android:text="0"
+                android:textSize="30dp"
+                android:onClick="number"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+    />
+
+
+</LinearLayout>
